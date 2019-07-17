@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.name         = "JKJSBridge"
   spec.version      = "0.0.1"
   spec.summary      = "JKJSBridge"
-  spec.description  = "JKJSBridge"
+  spec.description  = "JKJSBridge."
 
   spec.homepage     = "https://github.com/jokerwking/JKJSBridge"
   spec.license      = "MIT"
@@ -22,9 +22,9 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/jokerwking/JKJSBridge.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "JKJSBridge", "JKJSBridge/**/*.{h,m}"
+  spec.source_files  = "JKJSBridge", "JKJSBridge/*.{h,m}"
 
-  spec.public_header_files = "JKJSBridge/**/*.h"
+  spec.public_header_files = "JKJSBridge/*.h"
   spec.frameworks = 'UIKit', 'Foundation', 'WebKit'
 
 end
