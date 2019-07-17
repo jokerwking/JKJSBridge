@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "JKJSBridge"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "JKJSBridge"
   spec.description  = "JKJSBridge."
 
