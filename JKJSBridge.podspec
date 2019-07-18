@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.name         = "JKJSBridge"
   spec.version      = "0.0.2"
   spec.summary      = "JKJSBridge"
-  spec.description  = "JKJSBridge."
+  spec.description  = "一个iOS上用于WKWebView和JavaScript通信的Bridge。"
 
   spec.homepage     = "https://github.com/jokerwking/JKJSBridge"
   spec.license      = "MIT"
